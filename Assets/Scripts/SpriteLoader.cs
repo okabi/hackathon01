@@ -20,7 +20,10 @@ public static class SpriteLoader
 		{
 			ret = ReadPNGFile(path);
 		}
-		// TODO: JPG への対応と PNG/JPG 以外のフォーマットへの例外処理
+		else if (path.EndsWith("jpg", true, null) || path.EndsWith("jpeg", true, null))
+		{
+			ret = ReadJPGFile(path);
+		}
 
 		// テクスチャの作成
 		ret.Texture = new Texture2D(ret.Width, ret.Height);
@@ -51,6 +54,25 @@ public static class SpriteLoader
 		for (int i = 0; i < 4; i++)
 		{
 			ret.Height = ret.Height * 256 + ret.Binary[pos++];
+		}
+
+		return ret;
+	}
+
+	private static ImageInfo ReadJPGFile(string path)
+	{
+		// バイナリ列の読み込み
+		var ret = new ImageInfo(path);
+
+		// 幅と高さの取得
+		for (int pos = 0; pos < ret.Binary.Length - 1; pos++)
+		{
+			if (ret.Binary[pos] == 0xff && ret.Binary[pos + 1] >= 0xc0 && ret.Binary[pos + 1] <= 0xcf)
+			{
+				ret.Width = 256 * ret.Binary[pos + 7] + ret.Binary[pos + 8];
+				ret.Height = 256 * ret.Binary[pos + 5] + ret.Binary[pos + 6];
+				break;
+			}
 		}
 
 		return ret;
