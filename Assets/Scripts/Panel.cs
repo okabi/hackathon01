@@ -28,16 +28,13 @@ public class Panel : MonoBehaviour
 	/// </summary>
 	/// <param name="correctIndex">パネルの正しいインデックス座標。</param>
 	/// <param name="imageInfo">画像情報。</param>
-	/// <param name="indexSize">ゲームで用いるパネルの横縦枚数。</param>
-	public void Init(Vector2Int correctIndex, ImageInfo imageInfo, Vector2Int indexSize)
+	/// <param name="rect">画像の切り取り情報。</param>
+	/// <param name="scale">画像の拡縮率。</param>
+	public void Init(Vector2Int correctIndex, ImageInfo imageInfo, Rect rect, Vector2 scale)
 	{
 		spriteRenderer = GetComponent<SpriteRenderer>() ?? spriteRenderer;
-		var rect = new Rect(
-			(float)correctIndex.x / indexSize.x * imageInfo.Width,
-			(float)correctIndex.y / indexSize.y * imageInfo.Height,
-			(float)imageInfo.Width / indexSize.x,
-			(float)imageInfo.Height / indexSize.y);
 		spriteRenderer.sprite = Sprite.Create(imageInfo.Texture, rect, new Vector2(0.5f, 0.5f), 1);
+		transform.localScale = scale;
 		CorrectIndex = correctIndex;
 	}
 
