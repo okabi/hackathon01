@@ -1,0 +1,66 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 5000 (ID=0xa26)
+    Vendor:   Intel
+    VRAM:     1024 MB
+    Driver:   10.18.14.4264
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\System.Windows.Forms.dll (this message is harmless)
+Loading C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\System.Windows.Forms.dll into Unity Child Domain
+Platform assembly: C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.041 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.734528 ms
+Platform assembly: C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\System.Drawing.dll (this message is harmless)
+Platform assembly: C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\Accessibility.dll (this message is harmless)
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/libc
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/.\libc
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/libc
+Platform assembly: C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\Mono.Posix.dll (this message is harmless)
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/libc
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/.\libc
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/libc
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/libX11
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/.\libX11
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/libX11
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/libX11
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/.\libX11
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/libX11
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/libX11
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/.\libX11
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/libX11
+Platform assembly: C:\Users\admin\Documents\Unity\hackathon01\Product\hackathon01_Data\Managed\System.Xml.dll (this message is harmless)
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/.\/System/Library/Frameworks/Carbon.framework/Versions/Current/Carbon
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/lib/System/Library/Frameworks/Carbon.framework/Versions/Current/Carbon
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/.\lib/System/Library/Frameworks/Carbon.framework/Versions/Current/Carbon
+Fallback handler could not load library C:/Users/admin/Documents/Unity/hackathon01/Product/hackathon01_Data/Mono/lib/System/Library/Frameworks/Carbon.framework/Versions/Current/Carbon
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.745173 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 298.
+Total: 0.804954 ms (FindLiveObjects: 0.074351 ms CreateObjectMapping: 0.040514 ms MarkObjects: 0.654915 ms  DeleteObjects: 0.032946 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.536042 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 347.
+Total: 0.865948 ms (FindLiveObjects: 0.065001 ms CreateObjectMapping: 0.041405 ms MarkObjects: 0.728821 ms  DeleteObjects: 0.029829 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 11ac -> priority: 1 
+  Thread -> id: 45c -> priority: 1 
