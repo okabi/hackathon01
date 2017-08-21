@@ -46,7 +46,7 @@ public struct Vector2Int
 
 	public override string ToString()
 	{
-		return string.Format("(%d, %d)", x, y);
+		return string.Format("({0}, {1})", x, y);
 	}
 
 	#endregion

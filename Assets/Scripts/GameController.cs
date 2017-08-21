@@ -87,6 +87,16 @@ public class GameController : MonoBehaviour
 		Shuffle(1000);
 	}
 
+	void Update()
+	{
+		if (Input.GetMouseButtonDown(0))
+		{
+			var clickedIndex = WorldToIndex(ScreenToWorld(Input.mousePosition));
+			Debug.Log(clickedIndex);
+			Move(clickedIndex);
+		}
+	}
+
 	#endregion
 
 	#region private メソッド
@@ -114,11 +124,22 @@ public class GameController : MonoBehaviour
 	}
 
 	/// <summary>
+	/// スクリーン座標をワールド座標に変換します。
+	/// </summary>
+	/// <param name="screenPosition">スクリーン座標。</param>
+	/// <returns>ワールド座標。</returns>
+	private Vector2 ScreenToWorld(Vector2 screenPosition)
+	{
+		return Camera.main.ScreenToWorldPoint(screenPosition);
+	}
+
+	/// <summary>
 	/// 指定した箇所のパネルを削除します。
 	/// </summary>
 	/// <param name="pos">削除するパネルのインデックス座標。</param>
 	private void Delete(Vector2Int pos)
 	{
+		Destroy(panels[pos].gameObject);
 		panels[pos] = null;
 		nullPos = pos;
 	}
